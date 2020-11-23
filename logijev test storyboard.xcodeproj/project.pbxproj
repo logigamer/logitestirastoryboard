@@ -24,6 +24,7 @@
 		138876B4256B7C650022901F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		138876B7256B7C650022901F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		138876B9256B7C650022901F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		138876C1256B7C780022901F /* logijev test storyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "logijev test storyboard.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		138876AA256B7C620022901F /* logijev test storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				138876C1256B7C780022901F /* logijev test storyboard.entitlements */,
 				138876AB256B7C620022901F /* AppDelegate.swift */,
 				138876AD256B7C620022901F /* SceneDelegate.swift */,
 				138876AF256B7C620022901F /* ViewController.swift */,
@@ -286,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "logijev test storyboard/logijev test storyboard.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "logijev test storyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,6 +297,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "logi.logijev-test-storyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +308,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "logijev test storyboard/logijev test storyboard.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "logijev test storyboard/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,6 +317,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "logi.logijev-test-storyboard";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
